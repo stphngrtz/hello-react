@@ -71,9 +71,32 @@ var App = React.createClass({
 });
 ```
 
-Das Beispiel, auf ES6 umgewandelt, sieht man in `app.js`, `employee.js` und `employeeTable.js`.
+Das Beispiel, auf ES6 umgewandelt, sieht man in `employeeApp.js`, `employee.js` und `employeeTable.js`.
+
+## Todo-List Beispiel
+Das Todo-List Beispiel zeigt eine nicht auf verschiedene Dateien aufgeteilte React Anwendung, siehe `todoApp.js`. Darüber hinaus werden Stateless Components sowie der localStorage benutzt.
+https://scotch.io/tutorials/create-a-simple-to-do-app-with-react
+
+```
+// stateless component
+const Title = () => {
+	return (
+		<div>
+			<h2>To-do List</h2>
+		</div>
+	);
+};
+```
 
 ## TODO
 - Ziel ist eine Beispiel-Anwendung, mit verschiedenen Komponenten, verteilt auf 2-3 Seiten
 - https://facebook.github.io/react/tutorial/tutorial.html
+- https://scotch.io/tutorials/create-a-simple-to-do-app-with-react
 - Redux
+
+## Create React App
+https://github.com/facebookincubator/create-react-app
+
+Eine Entwicklungsumgebung muss nicht zwingend manuell aufgesetzt werden. Das "Create React App" - Projekt nimmt einem diese Tätigkeit ab. Siehe hierzu auch den offiziellen React Blog-Post.
+
+https://facebook.github.io/react/blog/2016/07/22/create-apps-with-no-configuration.html

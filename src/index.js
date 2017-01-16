@@ -1,7 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { App } from './app';
+import { EmployeeApp } from './employeeApp';
+import { TodoApp } from './todoApp';
 
 ReactDOM.render(
-  <App />, document.getElementById('content')
+  <EmployeeApp />, document.getElementById('employees')
+);
+ReactDOM.render(
+  <TodoApp />, document.getElementById('todos')
 );

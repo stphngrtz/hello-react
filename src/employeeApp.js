@@ -1,7 +1,7 @@
 import React from 'react';
-import { EmployeeTable } from './employees/employeeTable'
+import { EmployeeTable } from './employees/employeeTable';
 
-export class App extends React.Component {
+export class EmployeeApp extends React.Component {
 
   constructor(props, context) {
     super(props, context);

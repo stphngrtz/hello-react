@@ -5,7 +5,7 @@ export class EmployeeTable extends React.Component {
   render() {
     var rows=[];
     this.props.employees.forEach(employee => {
-      rows.push(<Employee employee={employee} />);
+      rows.push(<Employee employee={employee} key={employee.name} />);
     });
     return (
       <table>
