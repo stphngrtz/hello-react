@@ -88,11 +88,29 @@ const Title = () => {
 };
 ```
 
+## react-router
+Das Routing ist nicht direkt Bestandteil von React. Es muss eine 3rd Party Library eingebunden werden.
+https://github.com/ReactTraining/react-router
+
+```
+npm install --save react-router
+```
+In `routingApp.js` ist eine beispielhafte Implementierung des Routings zu sehen. Hierzu gehört auch noch die Definition der Routen in `index.js`.
+```
+ReactDOM.render((
+  <Router history={browserHistory}>
+    <Route path="/" component={RoutingApp}>
+      <Route path="/user/:userId" component={User} />
+    </Route>
+    <Route path="*" component={NoMatch} />
+  </Router>
+  ), document.getElementById('routing')
+);
+```
+
 ## TODO
-- Ziel ist eine Beispiel-Anwendung, mit verschiedenen Komponenten, verteilt auf 2-3 Seiten
-- https://facebook.github.io/react/tutorial/tutorial.html
-- https://scotch.io/tutorials/create-a-simple-to-do-app-with-react
 - Redux
+- TODO neues Repository mit einer FE+BE(express) Anwendung, die mittels create-react-app erstellt wurde. Darin dann Routing, Redux, etc. in einem Beispiel. Nicht so durcheinander wie hier.
 
 ## Create React App
 https://github.com/facebookincubator/create-react-app
