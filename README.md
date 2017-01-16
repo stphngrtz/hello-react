@@ -54,6 +54,23 @@ ReactDOM.render(
 );
 ```
 
+## Employee Beispiel
+Das Employee Beispiel von Java Code Geeks ist ganz nett um erste Gehversuche mit React Komponenten zu machen.
+https://www.javacodegeeks.com/2016/12/build-crud-application-react-spring-boot-user-authentication.html
+
+Siehe ...
+```
+var Employee = React.createClass({
+  ...
+});
+var EmployeeTable = React.createClass({
+  ...
+});
+var App = React.createClass({
+  ...
+});
+```
+
 ## TODO
 - Ziel ist eine Beispiel-Anwendung, mit verschiedenen Komponenten, verteilt auf 2-3 Seiten
 - https://facebook.github.io/react/tutorial/tutorial.html
