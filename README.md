@@ -71,6 +71,8 @@ var App = React.createClass({
 });
 ```
 
+Das Beispiel, auf ES6 umgewandelt, sieht man in `app.js`, `employee.js` und `employeeTable.js`.
+
 ## TODO
 - Ziel ist eine Beispiel-Anwendung, mit verschiedenen Komponenten, verteilt auf 2-3 Seiten
 - https://facebook.github.io/react/tutorial/tutorial.html
