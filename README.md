@@ -108,8 +108,21 @@ ReactDOM.render((
 );
 ```
 
+## Redux
+*Redux is a predictable state container for JavaScript apps.*
+Na das hört sich doch gut an. Das mache ich! :D
+
+```
+npm install --save redux react-redux
+```
+
+http://redux.js.org/docs/basics/UsageWithReact.html
+In der Dokumentation wird eine Todo-List beschrieben. Eine solche habe ich allerdings schon in diesem Projekt, daher wandel ich für das Redux Kapitel die Todo-List in eine Shopping-List um.
+
+https://github.com/zalmoxisus/redux-devtools-extension
+Um sich Zustandsübergänge zu visualisieren wird von der offiziellen Dokumentation die o.g. Browser-Extensions empfohlen.
+
 ## TODO
-- Redux
 - TODO neues Repository mit einer FE+BE(express) Anwendung, die mittels create-react-app erstellt wurde. Darin dann Routing, Redux, etc. in einem Beispiel. Nicht so durcheinander wie hier.
 
 ## Create React App
